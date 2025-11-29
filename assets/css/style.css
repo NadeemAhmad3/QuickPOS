@@ -491,3 +491,77 @@ body {
     box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
 }
 .btn-glow:hover { background: #4338ca; box-shadow: 0 15px 30px rgba(79, 70, 229, 0.4); }
+/* --- CONTACT SECTION --- */
+.contact-section {
+    padding: 100px 0;
+    background: #ffffff;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left Side Info */
+.contact-info { flex: 1; }
+.contact-info h2 { font-size: 3rem; line-height: 1.2; margin-bottom: 20px; color: #111; }
+.info-items { margin-top: 40px; display: flex; flex-direction: column; gap: 30px; }
+
+.info-item { display: flex; align-items: center; gap: 20px; }
+.info-item h4 { margin: 0; font-size: 1.1rem; font-weight: 700; color: #111; }
+.info-item p { margin: 0; color: #666; }
+
+/* Right Side Form */
+.contact-form-wrapper {
+    flex: 1;
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    border: 1px solid #f3f4f6;
+}
+
+.form-group { margin-bottom: 25px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #374151; font-size: 0.9rem; }
+
+.modern-form input, .modern-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    background: #f9fafb;
+}
+
+.modern-form input:focus, .modern-form textarea:focus {
+    border-color: #4F46E5;
+    background: white;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
+
+.btn-block { width: 100%; justify-content: center; font-size: 1.1rem; margin-top: 10px; }
+
+/* --- FOOTER --- */
+footer {
+    background: #111827;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.footer-content { display: flex; justify-content: space-between; align-items: center; }
+.social-links { display: flex; gap: 20px; }
+.social-links a { color: #9ca3af; font-size: 1.2rem; transition: color 0.3s; }
+.social-links a:hover { color: white; }
+
+/* Mobile */
+@media (max-width: 900px) {
+    .contact-container { flex-direction: column; }
+    .contact-info { text-align: center; }
+    .info-items { align-items: center; }
+}

@@ -122,6 +122,60 @@
             </div>
         </div>
     </section>
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge-glow">Simple Pricing</span>
+                <h2>Choose your <span class="gradient-text">growth plan</span></h2>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="plan-header">
+                        <h3>Starter</h3>
+                        <div class="price">$29<span>/mo</span></div>
+                        <p>Perfect for small shops.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> 1 POS Terminal</li>
+                        <li><i class="fas fa-check-circle"></i> Basic Inventory</li>
+                        <li><i class="fas fa-check-circle"></i> Email Support</li>
+                    </ul>
+                    <a href="#" class="btn-price">Get Started</a>
+                </div>
+
+                <div class="price-card popular">
+                    <div class="best-value-badge">Best Value</div>
+                    <div class="plan-header">
+                        <h3>Growth</h3>
+                        <div class="price">$79<span>/mo</span></div>
+                        <p>For growing businesses.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> 3 POS Terminals</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Priority Support</li>
+                        <li><i class="fas fa-check-circle"></i> CRM Integration</li>
+                    </ul>
+                    <a href="#" class="btn-price btn-glow">Get Started</a>
+                </div>
+
+                <div class="price-card">
+                    <div class="plan-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">$199<span>/mo</span></div>
+                        <p>Maximum power & scale.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Terminals</li>
+                        <li><i class="fas fa-check-circle"></i> API Access</li>
+                        <li><i class="fas fa-check-circle"></i> Dedicated Manager</li>
+                    </ul>
+                    <a href="#" class="btn-price">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

@@ -422,3 +422,72 @@ body {
     gap: 15px;
     color: #4F46E5;
 }
+/* --- PRICING SECTION --- */
+.pricing-section {
+    padding: 100px 0;
+    background-color: #f9fafb;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.price-card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.price-card:hover { transform: translateY(-10px); }
+
+/* Popular Card (Center) */
+.popular {
+    transform: scale(1.05);
+    border: 2px solid #4F46E5;
+    box-shadow: 0 20px 50px rgba(79, 70, 229, 0.15);
+    z-index: 3;
+}
+.popular:hover { transform: scale(1.05) translateY(-10px); }
+
+.best-value-badge {
+    position: absolute; top: -15px; left: 50%; transform: translateX(-50%);
+    background: #4F46E5; color: white; padding: 5px 15px;
+    border-radius: 20px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+}
+
+/* Typography */
+.plan-header h3 { font-size: 1.5rem; margin-bottom: 10px; color: #111; }
+.price { font-size: 3rem; font-weight: 800; color: #111; margin-bottom: 10px; }
+.price span { font-size: 1rem; color: #666; font-weight: 400; }
+.plan-header p { color: #666; margin-bottom: 30px; }
+
+/* List */
+.features-list { list-style: none; text-align: left; margin-bottom: 30px; space-y: 15px; }
+.features-list li { margin-bottom: 15px; color: #444; display: flex; align-items: center; gap: 10px; }
+.features-list i { color: #10B981; } /* Green Checkmark */
+
+/* Buttons */
+.btn-price {
+    display: block; width: 100%; padding: 15px;
+    border-radius: 12px; font-weight: 700; text-decoration: none;
+    background: #f3f4f6; color: #111; transition: all 0.3s ease;
+}
+.btn-price:hover { background: #e5e7eb; }
+
+.btn-glow {
+    background: #4F46E5; color: white;
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+}
+.btn-glow:hover { background: #4338ca; box-shadow: 0 15px 30px rgba(79, 70, 229, 0.4); }

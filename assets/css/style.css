@@ -1,0 +1,108 @@
+/* --- Global Reset & Typography --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light grey modern background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- Reusable Layout Classes --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Modern Glassmorphism Navbar --- */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* The "Glass" blur effect */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- Logo Styling --- */
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.logo span {
+    color: #4F46E5; /* Modern Indigo/Purple accent color */
+}
+
+/* --- Navigation Links --- */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+/* Hover Effect: Underline animation */
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #4F46E5;
+    transition: width 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #4F46E5;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    background-color: #4F46E5;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 50px; /* Pill shape */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3); /* Soft shadow glow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+    background-color: #4338ca;
+}

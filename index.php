@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickPOS - Modern Point of Sale</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -69,6 +69,54 @@
                     <div>
                         <p>Active Staff</p>
                         <h3>24 Online</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="features-section">
+        <div class="tech-grid"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="badge-glow">Power Features</span>
+                <h2>Built for <span class="gradient-text">Speed & Scale</span></h2>
+                <p>Experience the next generation of POS technology.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-glow"></div> <div class="icon-box blue-box">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Inventory Control</h3>
+                        <p>Real-time tracking with AI-predicted reordering. Never miss a sale due to low stock again.</p>
+                        <a href="#" class="arrow-link">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-glow"></div>
+                    <div class="icon-box purple-box">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Smart Analytics</h3>
+                        <p>Visualize your growth. Track peak hours, top performers, and profit margins instantly.</p>
+                        <a href="#" class="arrow-link">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-glow"></div>
+                    <div class="icon-box pink-box">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Instant Sync</h3>
+                        <p>Connects with your favorite apps in milliseconds. Seamless integration with zero lag.</p>
+                        <a href="#" class="arrow-link">Explore <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

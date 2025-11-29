@@ -268,3 +268,157 @@ body {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
 }
+/* --- FEATURES SECTION (ULTRA MODERN) --- */
+.features-section {
+    padding: 120px 0;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* The Tech Grid Background Pattern */
+.tech-grid {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-image: radial-gradient(#e5e7eb 1.5px, transparent 1.5px);
+    background-size: 40px 40px; /* Creates the dotted grid look */
+    z-index: 0;
+    opacity: 0.7;
+    mask-image: linear-gradient(to bottom, transparent, black, transparent); /* Fades edges */
+}
+
+.section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 80px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.badge-glow {
+    background: rgba(79, 70, 229, 0.1);
+    color: #4F46E5;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.2); /* Glow effect */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+/* --- The Modern Cards --- */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 50px;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px); /* Frosted glass */
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 50px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: 
+        0 20px 40px rgba(0,0,0,0.03), /* Soft shadow */
+        0 1px 2px rgba(0,0,0,0.05);  /* crisp outline */
+}
+
+/* The "Inner Glow" Blob */
+.card-glow {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, rgba(79, 70, 229, 0.2), rgba(236, 72, 153, 0.2));
+    filter: blur(40px);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    opacity: 0.5;
+}
+
+.feature-card:hover .card-glow {
+    transform: scale(2); /* Glow expands on hover */
+    opacity: 0.8;
+}
+
+.feature-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 
+        0 30px 60px rgba(79, 70, 229, 0.15), /* Color shadow */
+        0 0 0 2px #4F46E5; /* Border highlights */
+}
+
+/* Floating Icons */
+.icon-box {
+    width: 80px; height: 80px;
+    border-radius: 24px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    animation: floatIcon 4s ease-in-out infinite; /* Continuous floating */
+    position: relative;
+    z-index: 2;
+}
+
+/* Custom Gradients for Icons */
+.blue-box { background: linear-gradient(135deg, #3B82F6, #2563EB); animation-delay: 0s; }
+.purple-box { background: linear-gradient(135deg, #8B5CF6, #7C3AED); animation-delay: 1.5s; }
+.pink-box { background: linear-gradient(135deg, #EC4899, #DB2777); animation-delay: 3s; }
+
+@keyframes floatIcon {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+.card-content { position: relative; z-index: 2; }
+
+.feature-card h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Interactive Link */
+.arrow-link {
+    text-decoration: none;
+    color: #111;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: gap 0.3s ease;
+}
+
+.feature-card:hover .arrow-link {
+    gap: 15px;
+    color: #4F46E5;
+}

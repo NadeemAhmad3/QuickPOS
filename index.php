@@ -176,6 +176,68 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            
+            <div class="contact-info">
+                <span class="badge-glow">Get in Touch</span>
+                <h2>Let’s Start a <br><span class="gradient-text">Conversation</span></h2>
+                <p>Ready to upgrade your business? Our team is ready to help you set up.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="icon-box purple-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>nadeemahmad2703@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon-box blue-box"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+92 311-7133585</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form action="contact.php" method="POST" class="modern-form">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="Nadeem Ahmad" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="nadeemahmad2703@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="4" placeholder="Tell us about your business..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-block">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 QuickPOS System. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

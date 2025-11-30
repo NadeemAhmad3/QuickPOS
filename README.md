@@ -149,11 +149,11 @@ Open your browser and navigate to: `http://localhost:8000`
 
 ## 👥 The Team
 
-| Role | Member | Github | Responsibilities |
-|------|--------|--------|------------------|
-| Product Manager | Mastercoder | [@mastercoder](https://github.com/mastercoder) | Backlog Ownership, QA, Sprint Planning |
-| Tech Lead | OnedaySuccessfull | [@onedaysuccessfull](https://github.com/onedaysuccessfull) | DevOps, Merge Reviews, Repo Management |
-| Lead Developer | Nadeem | [@NadeemAhmad3](https://github.com/NadeemAhmad3) | Full Stack Development (PHP/CSS) |
+| Role | Member | Github | LinkedIn | Responsibilities |
+|------|--------|--------|----------|------------------|
+| Product Manager | Mastercoder | [@mastercoder](https://github.com/mastercoder) | - | Backlog Ownership, QA, Sprint Planning |
+| Tech Lead | OnedaySuccessfull | [@onedaysuccessfull](https://github.com/onedaysuccessfull) | [LinkedIn](https://www.linkedin.com/in/nadeem-ahmad3/) | DevOps, Merge Reviews, Repo Management |
+| Lead Developer | Nadeem | [@NadeemAhmad3](https://github.com/NadeemAhmad3) | - | Full Stack Development (PHP/CSS) |
 
 ---
 

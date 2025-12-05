@@ -122,6 +122,150 @@
             </div>
         </div>
     </section>
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge-glow">Simple Pricing</span>
+                <h2>Choose your <span class="gradient-text">growth plan</span></h2>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="plan-header">
+                        <h3>Starter</h3>
+                        <div class="price">$29<span>/mo</span></div>
+                        <p>Perfect for small shops.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> 1 POS Terminal</li>
+                        <li><i class="fas fa-check-circle"></i> Basic Inventory</li>
+                        <li><i class="fas fa-check-circle"></i> Email Support</li>
+                    </ul>
+                    <a href="#" class="btn-price">Get Started</a>
+                </div>
+
+                <div class="price-card popular">
+                    <div class="best-value-badge">Best Value</div>
+                    <div class="plan-header">
+                        <h3>Growth</h3>
+                        <div class="price">$79<span>/mo</span></div>
+                        <p>For growing businesses.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> 3 POS Terminals</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Priority Support</li>
+                        <li><i class="fas fa-check-circle"></i> CRM Integration</li>
+                    </ul>
+                    <a href="#" class="btn-price btn-glow">Get Started</a>
+                </div>
+
+                <div class="price-card">
+                    <div class="plan-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">$199<span>/mo</span></div>
+                        <p>Maximum power & scale.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Terminals</li>
+                        <li><i class="fas fa-check-circle"></i> API Access</li>
+                        <li><i class="fas fa-check-circle"></i> Dedicated Manager</li>
+                    </ul>
+                    <a href="#" class="btn-price">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            
+            <div class="contact-info">
+                <span class="badge-glow">Get in Touch</span>
+                <h2>Let’s Start a <br><span class="gradient-text">Conversation</span></h2>
+                <p>Ready to upgrade your business? Our team is ready to help you set up.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="icon-box purple-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>nadeemahmad2703@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon-box blue-box"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+92 311-7133585</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form action="contact.php" method="POST" class="modern-form">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="Nadeem Ahmad" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="nadeemahmad2703@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="4" placeholder="Tell us about your business..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-block">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+   <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">Quick<span>POS</span></a>
+                    <p>The operating system for modern business. Scale faster with tools designed for growth.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Get a Demo</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 QuickPOS Systems Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
